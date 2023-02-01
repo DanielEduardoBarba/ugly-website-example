@@ -1,0 +1,47 @@
+
+        body:hover{
+            background-color: blue;
+            width: 500px;
+            height: 500px;
+            animation: 0.2s linear infinite blinking;
+
+        }
+        blink{
+            animation:  0.5s linear infinite blinking;
+            width: 100px;
+            height: 100%;
+        }
+        nav{
+            background-color: pink;
+            font-size: 30px;
+            border-width: 200px;
+            width: 100px;
+        }
+
+        @keyframes blinking {
+            0% {
+              visibility: hidden;
+            }
+            50% {
+              visibility: hidden;
+            }
+            100% {
+              visibility: visible;
+            }
+          }
+          div{
+            background-color: aqua;
+            width: 100px;
+            margin: 20%;
+
+            border-radius: 20%;
+            height: 200px;
+            border: solid green;
+            
+            color: green;
+          }
+
+        p{
+            color: blue;
+            font-size:50px ;
+        }

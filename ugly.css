@@ -1,0 +1,50 @@
+
+        body:hover{
+            background-color: blue;
+            width: 500px;
+            height: 500px;
+            animation: 0.2s linear infinite blinking;
+
+        }
+        blink{
+            animation:  0.5s linear infinite blinking;
+            width: 100px;
+            height: 100%;
+            border: solid turquoise;
+            font-size: 30px;
+        }
+        nav{
+            background-color: pink;
+            border-width: 200px;
+            width: 200px;
+        }
+
+        @keyframes blinking {
+            0% {
+              visibility: hidden;
+            }
+            50% {
+              visibility: hidden;
+            }
+            100% {
+              visibility: visible;
+            }
+          }
+          div{
+            background-color: aqua;
+            width: 400px;
+            border-radius: 50%;
+            text-align: center;
+            color: yellow;
+          }
+
+        p{
+            color: blue;
+            font-size: 50px;
+            border-spacing: 10px;
+        }
+        footer{
+            font-size: larger;
+
+            color: blueviolet;
+        }
